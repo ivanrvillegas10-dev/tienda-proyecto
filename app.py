@@ -7,7 +7,6 @@ load_dotenv()
 
 print("🚀 Servidor iniciado")
 
-# 🔥 IMPORTANTE: para que funcione CSS/JS
 app = Flask(__name__, static_folder='public', static_url_path='')
 
 # 🔹 Conexión a la base de datos
